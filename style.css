@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+#header {
+    width: 1440px;
+    height: 475px;
+    left: 0px;
+    top: 0px;
+    background: #303030;
+}
+
+#titleTop {
+    padding-top: 206px;
+    padding-left: 62px;
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+#textTop {
+    padding-left: 65px;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 298px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+#headerB {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    position: absolute;
+    width: 1440px;
+    height: 229px;
+
+}
+
+.text1 {
+    margin-top: 96px;
+    margin-left: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.text2 {
+    margin-left: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+#textHistory {
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 77px;
+    top: 1003px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+}
+
+#salaimg {
+    position: absolute;
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    top: 781px;
+    background: url(./IMG/salaimg.svg);
+    border-radius: 30px;
+}
+
+.hText1 {
+    margin-top: 96px;
+    margin-left: 77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.hText2 {
+    margin-left: 77px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#forms {
+    position: absolute;
+    width: 1440px;
+    height: 638px;
+    left: 0px;
+    top: 1478px;
+    background: #303030;
+}
+
+#titleform {
+        color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 87px ;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    margin-left: 466px;
+    top: 1661px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-left: 30px;
+    left: 496px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(155, 155, 155, 0.137)
+}
+
+button {
+    background-color:#C07212;
+    height: 74px;
+    width: 286px;
+    margin-left: 600px;
+    color: #EAECE5;
+    border:0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+}
+
+#btform {
+    padding-left: 46px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #94633b;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #645c5679;
+    transition-duration: 0.35s;
+}
