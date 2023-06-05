@@ -129,7 +129,7 @@
 }
 
 #titleform {
-        color: white;
+    color: white;
     font-family: 'Inter';
     font-weight: 700;
     font-style: normal;
@@ -144,7 +144,7 @@ input {
     height: 72px;
     margin-left: 466px;
     top: 1661px;
-    background: #FFFFFF;
+    background: #EAECE5;
     border-radius: 10px;
     padding-left: 30px;
     left: 496px;
@@ -155,7 +155,7 @@ input {
     line-height: 30px;
     display: flex;
     align-items: center;
-    color: rgba(155, 155, 155, 0.137)
+    color: rgba(0, 0, 0, 0.836)
 }
 
 button {
@@ -183,7 +183,7 @@ button {
     line-height: 30px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 button:hover {
